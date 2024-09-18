@@ -452,6 +452,21 @@ input:checked ~ .bubble::after {
   color: var(--grey);
 }
 
+.todo-item.done .bubble::after {
+  content: '';
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  background-color: var(--primary);
+  box-shadow: var(--business-glow);
+  border-radius: 50%;
+}
+
+.todo-item.done .bubble.personal::after {
+  background-color: var(--secondary);
+  box-shadow: var(--personal-glow);
+}
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
