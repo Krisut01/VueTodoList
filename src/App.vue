@@ -70,7 +70,8 @@
 
 <script setup>
 import { ref, onMounted, computed, watch } from 'vue'
-import { v4 as uuidv4 } from 'uuid'
+import { v4 as uuidv4 } from 'uuid';
+
 
 const todos = ref([])
 const name = ref('')
