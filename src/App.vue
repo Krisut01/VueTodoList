@@ -29,7 +29,7 @@
             v-model="input_category"
           />
           <span class="bubble business"></span>
-          <div>Business</div>
+          <div>School Acts</div>
         </label>
         <label>
           <input
